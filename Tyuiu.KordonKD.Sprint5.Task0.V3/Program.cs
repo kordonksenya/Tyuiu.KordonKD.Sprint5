@@ -36,8 +36,7 @@ namespace Tyuiu.KordonKD.Sprint5.Task0.V3
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            double result = ds.Calculate(x);
-            
+            double result = ds.Calculate(x); 
             string filePath = ds.SaveToFile(result);
 
             Console.WriteLine("Полученный результат: " + result);

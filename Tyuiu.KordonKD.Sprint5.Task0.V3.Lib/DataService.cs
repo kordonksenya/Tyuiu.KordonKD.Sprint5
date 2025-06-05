@@ -26,10 +26,10 @@ namespace Tyuiu.KordonKD.Sprint5.Task0.V3.Lib
             
             double y = -0.25 * (Math.Pow(x, 3) - 3 * Math.Pow(x, 2) + 4);
 
-            
+
             y = Math.Round(y, 3, MidpointRounding.AwayFromZero);
 
-           
+
             string fileName = "OutPutFileTask0.txt";
 
             

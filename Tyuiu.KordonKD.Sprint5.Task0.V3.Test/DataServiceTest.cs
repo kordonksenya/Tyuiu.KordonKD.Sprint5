@@ -159,7 +159,7 @@ namespace Tyuiu.KordonKD.Sprint5.Task0.V3.Test
                 Console.WriteLine("\nТест: SaveToFileTextData с x = 0");
                 var calculator = new FunctionCalculator();
                 int x = 0;
-               
+
                 string expectedContent = "-1.000";
                 string actualFilePath = null;
 
